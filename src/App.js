@@ -19,7 +19,7 @@ function App() {
     <div className='App'>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={ !token ? <Navigate to="/login" /> : <Home2 />} />
+          <Route path='/' element={ !token ? <Navigate to="/register" /> : <Home2 />} />
           <Route path='/login' element={ token ? <Navigate to="/"  />: <Login /> } />
           <Route path='/register' element={token ? <Navigate to="/"  />: <Register /> } />
           <Route path='/test' element={ <Test /> } />
