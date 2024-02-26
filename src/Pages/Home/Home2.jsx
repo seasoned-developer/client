@@ -185,7 +185,7 @@ const Home2 = () => {
             }
           });
           //simple navigation 
-          navigate(0);
+          
         }
         catch(e){
         }
