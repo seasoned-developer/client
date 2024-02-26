@@ -1029,7 +1029,7 @@ user-select: none;
 
 @media screen and (max-width : 1000px){
   .containerMessaging{
-    height :100vh;
+    height :calc(100vh - 50px);
     width: 100%;
   }
   .onlineXuuuu{
