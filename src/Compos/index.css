@@ -1,0 +1,161 @@
+.ContainerTrading{
+    height: 100%;
+    width: calc(70% - 2rem);
+    z-index: 99;
+    margin-right: 2rem;
+    background-color: red;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    backdrop-filter: blur(3px) saturate(200%);
+    -webkit-backdrop-filter: blur(1px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.086);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title{
+    height: 90px;
+    width: 100%;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.666rem;
+    font-weight: bold;
+  }
+  .textGradient{
+    background-color: red;
+    
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #bb00ff, #3c00ff);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .hojid{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hojid button{
+    margin: 0.24rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 35px;
+    border-radius: 0.333rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+    transition: none;
+  }
+  
+  .hojid .bitcoin:hover{
+    background-color:gainsboro;
+    color:  rgb(0, 0, 0);
+  }
+  
+  .hojid .addColorbitcoin{
+    background-color: rgb(148, 3, 251);
+    color:  rgb(255, 255, 255);
+  }
+  
+  
+  
+  
+  .hojid .ethereum:hover{
+    background-color: gainsboro;
+    color:  rgb(0, 0, 0);
+  }
+  .hojid .addColorethereum{
+    background-color: rgb(148, 3, 251);
+    color:  rgb(255, 255, 255);
+  }
+  
+  
+  
+  
+  .hojid .binancecoin:hover{
+    background-color:gainsboro;
+    color:  rgb(0, 0, 0);
+  }
+  .hojid .addColorbinancecoin{
+    background-color: rgb(148, 3, 251);
+    color:  rgb(255, 255, 255);
+  }
+  
+  
+  
+  .hojid .solana:hover{
+    background-color: gainsboro;
+    color:  rgb(0, 0, 0);
+  }
+  
+  .hojid .addColorsolana{
+    background-color: rgb(148, 3, 251);
+    color:  rgb(255, 255, 255);
+    
+  }
+  
+  
+  
+  .hojid button img{
+    height: 27px;
+    margin-right: 0.5rem;
+    width: 27px;
+    border-radius: 50%;
+  }
+  
+  
+  .chart-container{
+    width: 100%;
+    height: 100%;
+}
+  .LoaderComponent{
+    height: 91%;
+    width: 82%;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hojid .nowidht{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hojid .nowidht img{
+    margin: 0;
+  }
+
+.hojid{
+    height: 100px;
+}
+
+.zojqd{
+    position: relative;
+    padding: 0;
+}

@@ -1,0 +1,79 @@
+.containerRegister{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.containerRegister input, .containerRegister button{
+    margin-bottom:0.77rem;
+    border: 1px solid rgb(198, 198, 198);
+    outline: none;
+    height: 37px;
+    width: 250px;
+    font-size: 0.9rem;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+.containerRegister button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    font-size: 0.96rem;
+    transition: 0.15s all ease-in-out;
+    background-color : rgb(212, 57, 0);
+    color: white;
+}
+.containerRegister button:hover{
+    background-color: orangered;
+    box-shadow: 0px 0px 10px .4px rgb(255, 182, 155);
+}
+.error2{
+    opacity: 0;
+    visibility: hidden;
+    color: red;
+    font-size: 0.96rem;
+    font-weight: 500;
+    height:0px;
+    width: 250px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3rem;
+    transition: 0.35s all ease-in-out;
+}
+.showerror2{
+    visibility: visible;
+    opacity: 1;
+    height: 45px;
+    margin-bottom: 1rem;
+}
+.containerRegister h3{
+    color: rgb(230, 63, 3);
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+.hdqf{
+    color: black;
+}
+.containerRegister .NoPOINTER{
+    background-color: black;
+    cursor: not-allowed;
+}
+.containerRegister .NoPOINTER:hover{
+    background-color: black;
+}
+.noacc{
+    color: rgb(203, 55, 1);
+}
+.noacc:hover{
+    color: orangered;
+}
+.containerRegister .zdqj{
+    color: black;
+    font-size: 0.9rem;
+}

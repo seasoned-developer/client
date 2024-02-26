@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Martel+Sans:wght@700;800;900&family=Neuton:ital,wght@0,300;0,400;0,700;0,800;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&family=Roboto:wght@400;500;700;900&family=Rubik:wght@400;500;600;700&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+.Website{
+    background-color: white;
+    height : 100vh;
+    width: 100%;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Container{
+    min-height: 566px;
+    width: 490px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1rem;
+    background-color : white;}
+.title{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.containerOfInputs{
+    min-height: 40px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.containerOfInputs input{
+    height: 40px;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    background-color: white ;
+    padding: 0rem 1rem;
+    border: 1px solid rgb(169, 169, 169);
+    text-align: left;
+    color: black;
+}
+.containerOfInputs input:focus{
+    border: 2px solid   rgb(132, 0, 255);
+}
+
+.nameOfDiv{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: black;
+    width: 90%;
+    font-size: 15px;
+    font-weight: 500;
+}
+.containerOfInputs2{
+    min-height: 40px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.columnX{
+    height:auto;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.containerOfInputs2 input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    background-color: white ;
+    padding: 0rem 1rem;
+    border: 1px solid rgb(169, 169, 169);
+    text-align: left;
+    color: black;
+}
+.containerOfInputs2 input:focus{
+    border: 2px solid   rgb(132, 0, 255);
+}
+.nameOfDiv2{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: black;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.containerOfInputs button{
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
+    background-color:   rgb(132, 0, 255);
+    color: white;
+    border: none;
+    outline:none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.2s all ease-in-out;
+}
+.containerOfInputsAndButton{
+    margin-top: 1rem;
+}
+.containerOfInputsAndButton button:hover{
+    background-color:  rgb(132, 0, 255);
+}
+.containerOfInputsAndButton button:active{
+    background-color:  rgb(132, 0, 255);
+}
+.containerOfInputs .dropCvBtn{
+    height: 40px;
+    width: 90;
+    margin: 0 auto;
+    color: white;
+    border: 2px dotted  rgb(169, 169, 169);
+    background-color: white;
+    color: rgb(132, 0, 255);
+    outline:none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    transition: .24s all ease-in-out;
+}
+.containerOfInputs .dropCvBtn:hover{
+    color: rgb(114, 0, 220) ;
+}
+.containerOfInputs .dropCvBtn:active{
+    color: rgb(97, 0, 189);
+}
+.containerOfInputsjidsj{
+    text-align: center;
+    color: rgb(124, 124, 124);
+    width: 70%;
+    font-size: 13px;
+}
+
+.containerOfInputsuifzd button{
+    margin-bottom: 1rem;
+}
