@@ -79,6 +79,7 @@ const Login = () => {
   return (
     <form className="containerLogin " onSubmit={handleSubmit} >
         <h3>Sign In</h3>
+        
         <div className={error2 ? "error2 showerror2":'error2'}>
           Account already loggedin in another device. 
         </div>   
@@ -89,6 +90,7 @@ const Login = () => {
         <div className={error3 ? "error2 showerror2":'error2'}>
           Empty Fields
         </div>
+      <p>N.B : I did not pay for hosting, so it may be extremely slow, Thank your for your interest in my portfolio..</p>
         <input placeholder='Email Address' disabled={loader} type="text" name='username'  onChange={HandleChange} />
         <input placeholder='Password' disabled={loader} type="password" name='password' onChange={HandleChange}  />
         <button className={loader ? "NoPOINTER" : null} type='submit' disabled={loader}>Login</button>
