@@ -66,6 +66,8 @@ const Register = () => {
       <div className={error3 ? "error2 showerror2":'error2'}>
         Empty Fields
       </div>
+            <p>N.B : I did not pay for hosting, so it may be extremely slow, Thank your for your interest in my portfolio..</p>
+
       <input placeholder='Full Name' type="text" name='fullName' onChange={HandleChange}  disabled={loading} />
       <input placeholder='Email Address' type="text" name='username'  disabled={loading}  onChange={HandleChange} />
       <input placeholder='Password'  disabled={loading} type="password" name='password' onChange={HandleChange}  />
